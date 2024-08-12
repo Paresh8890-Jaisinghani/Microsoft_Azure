@@ -35,3 +35,16 @@ Paas +
 2. Private Cloud : A private cloud consists of computing resources used exclusively by users from one business or organization. A private cloud can be physically located at your organization's on-site or on-premises data center
 
 3. Hybrid Cloud : hybrid cloud computing environments combine a public cloud and a private cloud by allowing data and applications to be shared between them
+
+
+
+
+
+### Azure resources and Azure Resource Manager ### 
+1.Resource, a manageable item that's available through Azure virtual machines or VM storage accounts, Web APS Databases on virtual networks are examples of Resources
+
+2.Resource Group, a container that holds related resources for an Azure solution. The resource group includes resources that you want to manage as a group. 
+
+3.If you delete a resource group, all resources contained within it are also deleted. Organizing resources by life cycle could be useful in non-production environments where you might try an experiment and then dispose of it
+
+4.Azure Resource Manager commonly referred to his ARM, is the deployment and management service for Azure. It provides a management layer that enables you to create, update and delete resources in your Azure account.
