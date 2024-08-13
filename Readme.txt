@@ -48,3 +48,18 @@ Paas +
 3.If you delete a resource group, all resources contained within it are also deleted. Organizing resources by life cycle could be useful in non-production environments where you might try an experiment and then dispose of it
 
 4.Azure Resource Manager commonly referred to his ARM, is the deployment and management service for Azure. It provides a management layer that enables you to create, update and delete resources in your Azure account.
+
+
+
+What is App Service?
+App Service is an HTTP-based service that enables you to build and host many types of web-based solutions without managing infrastructure. For example, you can host web apps, mobile back ends, and RESTful APIs in several supported programming languages.
+
+
+What is Azure Marketplace?
+Azure Marketplace is an online store that hosts applications that are certified and optimized to run in Azure. Many types of applications are available, ranging from AI and machine learning to web applications.
+
+
+### Exercise - Create a website hosted in Azure### 
+1.Sign in to the Azure portal by using the same account you used to activate the sandbox.
+2.On the top of the Azure portal left pane, select Create a resource.
+3.In the Search the Marketplace box with the listed application options, enter WordPress. Select the default WordPress option from the list of options available.
