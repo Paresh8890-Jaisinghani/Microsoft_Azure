@@ -63,3 +63,22 @@ Azure Marketplace is an online store that hosts applications that are certified 
 1.Sign in to the Azure portal by using the same account you used to activate the sandbox.
 2.On the top of the Azure portal left pane, select Create a resource.
 3.In the Search the Marketplace box with the listed application options, enter WordPress. Select the default WordPress option from the list of options available.
+
+
+### Azure Cosmos db ###
+1.Azure Cosmos DB is a flexible database that provides guaranteed single digit milliseconds response times and 99.999% availability backed by comprehensive SLAs
+2.Elastic and independent scale throughput and storage on demand.
+3.access to multiple data models and APIs for working with your data.
+4.ability to globally distribute your data and build highly responsive applications
+
+### Azure Sql database ###
+1.Azure SQL Database provides you with a high performance, reliable, fully managed and secure database.
+2.it enables you to process both relational data and non relational structures such as graphs, JSON, Spatial and XML
+3.Azure SQL (sequel) Database is a platform as a service (PaaS) database engine. It handles most of the database management functions, such as upgrading, patching, backups, and monitoring, without user involvement.
+4.You can migrate your existing SQL Server databases with minimal downtime by using the Azure Database Migration Service.
+
+
+### Exercise - Create an Azure SQL Database ###
+1. Sign in to the Azure portal.
+2. Select Create a resource > Databases > SQL database
+3.Refer Module3 courseera
