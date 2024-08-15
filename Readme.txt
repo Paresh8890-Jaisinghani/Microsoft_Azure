@@ -82,3 +82,22 @@ Azure Marketplace is an online store that hosts applications that are certified 
 1. Sign in to the Azure portal.
 2. Select Create a resource > Databases > SQL database
 3.Refer Module3 courseera
+
+
+### Azure SQL Managed Instance ### 
+1.Like Azure SQL Database, Azure SQL Managed Instance is a platform as a service Database Engine, which means that your company will be able to take advantage of the best features of moving your data to the cloud in a fully managed environment.
+2. Azure SQL Managed Instance makes it easy to migrate your on-premises data on SQL Server to the client using the Azure Database Migration Service, DMS, or native backup and restore.
+
+
+### Azure Database for MySQL ###
+1.Azure Database for MySQL is a relational database service in the cloud, and it's based on the MySQL community edition database engine.
+2.you have a 99.99 percent availability service level agreement from Azure, powered by a global network of Microsoft managed data centers. This helps keep your app running 24/7.
+3.high availability with no additional cost, predictable performance, and inclusive pay-as-you-go pricing, scale is needed within seconds, ability to protect sensitive data at rest and in motion, automatic backups, and enterprise-grade security, and compliance. 
+
+### Azure Database for PostgreSQL ###
+1.Azure database for PostgreSQL is a relational database service in the cloud. The server's software is based on the community version of the open-source PostgreSQL database engine.
+2.Built-in high availability compared to on-premises resources. There's no additional configuration, replication, or cost required to make sure your applications are always available. Simple and flexible pricing.
+
+
+### Azure Synapse Analytics ###
+Azure Synapse Analytics is the logical choice for analyzing large volumes of data. Azure Synapse Analytics (formerly Azure SQL Data Warehouse) is a limitless analytics service that brings together enterprise data warehousing and big data analytics. 
