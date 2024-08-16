@@ -101,3 +101,17 @@ Azure Marketplace is an online store that hosts applications that are certified 
 
 ### Azure Synapse Analytics ###
 Azure Synapse Analytics is the logical choice for analyzing large volumes of data. Azure Synapse Analytics (formerly Azure SQL Data Warehouse) is a limitless analytics service that brings together enterprise data warehousing and big data analytics. 
+
+
+### Azure compute services ### 
+Azure compute is an on-demand computing service for running Cloud-based applications. It provides computing resources such as disks, processors, memory, networking, and operating systems
+
+
+What are Virtual Machines? Virtual Machines are software emulations of physical computers. They include a virtual processor, memory, storage, and networking resources. Virtual Machines host an operating system and you can install and run software just like a physical computer.
+Virtual Machines provides infrastructure as a service (IaaS) and
+can be used in different ways. If you want to provision Linux and Windows virtual machines with the configurations of your choice, you could so in seconds using Azure Virtual Machines services.
+
+what are Virtual Machine Scale Sets? Virtual Machine Scale Sets are an Azure compute resource that you can use to deploy and manage a set of identical Virtual Machines, Azure Virtual Machine Scale Sets lets you create and manage a group of identical load balanced Virtual Machines. Scale Sets allow you to centrally manage, configure and update a large number of Virtual Machines in minutes to provide highly available applications. 
+
+
+App Service enables you to build and host web apps, background jobs, mobile backends, and RESTful APIs in the programming language of your choice, without managing infrastructure
