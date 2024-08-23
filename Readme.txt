@@ -115,3 +115,45 @@ what are Virtual Machine Scale Sets? Virtual Machine Scale Sets are an Azure com
 
 
 App Service enables you to build and host web apps, background jobs, mobile backends, and RESTful APIs in the programming language of your choice, without managing infrastructure
+
+
+
+
+
+
+### Project Description ###
+
+1. Azure CLI
+What It Does: Azure CLI is a command-line tool that allows you to manage Azure resources directly from your terminal. It simplifies tasks like creating and managing Azure resources.
+How It’s Running: Installed on your local machine, you interact with Azure using commands such as:
+
+az login to authenticate with your Azure account.
+az group create --name MyResourceGroup --location eastus to create a resource group.
+az functionapp create --resource-group MyResourceGroup --consumption-plan-location eastus --runtime node --name MyFunctionApp --storage-account <StorageAccountName> to create a function app.
+Dependencies: It depends on internet connectivity to interact with Azure services and requires authentication via az login.
+
+
+2.Azure Resource group
+These are like folders where you organize and manage all your related Azure services (like storage, databases, or virtual machines) together. It helps keep things organized and easier to manage.
+
+
+3.Azure resource
+These are the individual services or components you use in Azure, like a virtual machine, a database, or storage. Each resource does a specific job within your cloud setup.
+
+
+
+4. Azure Functions
+What It Does: Azure Functions is a serverless compute service that allows you to run event-driven code without managing any servers. It’s perfect for running small pieces of code (functions) in response to various events, such as HTTP requests, timers, or messages from other Azure services.
+
+How It’s Running: You created a function named "myFunction," which runs in response to a specific trigger, such as an HTTP request. The function is deployed to Azure and is automatically scaled by Azure based on demand.
+
+Dependencies: Azure Functions depends on the Azure infrastructure to execute the code. It can also depend on other Azure services like Azure Table Storage for storing data. Azure Functions can be managed and deployed through the Azure CLI or the Azure portal.
+steps:
+npm install -g azure-functions-core-tools@4 --unsafe-perm true
+Navigate to the directory where you want to create your project.
+func init ToDoApp --javascript
+cd ToDoApp
+func new
+func start
+
+5.
